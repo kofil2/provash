@@ -1,0 +1,1374 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.navbar {
+  padding: 0;
+
+  padding: 0 50px;
+  font-size: 20px;
+}
+
+.fixed-top {
+  position: absolute;
+}
+
+.navbar-toggler {
+  background-color: #ffffff;
+}
+
+.navbar-light .navbar-brand {
+  margin-top: 20px;
+  width: 18%;
+  background: #ffffff;
+  padding: 10px 25px;
+  border-radius: 50px;
+}
+
+.navbar-light .navbar-brand .nav-img {
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 0 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .nav-item .custom-link:hover {
+  color: #09df90;
+}
+
+/*Header CSS*/
+
+.carousel-indicators {
+  margin-bottom: 10%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+  top: 12%;
+}
+
+.carousel-indicators li {
+  background-color: #09df90;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #ffffff;
+}
+
+.custom-inner {
+  z-index: -1;
+}
+
+.custom-caption {
+  position: absolute;
+  /*z-index: 10;*/
+  color: #fff;
+  text-align: left;
+  top: 20%;
+  left: 0;
+  padding: 20px 50px;
+}
+
+.custom-caption p {
+  margin-bottom: 4%;
+  padding-right: 60%;
+}
+
+.custom-caption h1 {
+  padding-right: 50%;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.custom-caption h3 {
+  margin-bottom: 20px;
+}
+
+.img-box {
+  background: url(../images/header-bg3.png);
+  background-position: left;
+  background-size: cover;
+  height: 850px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  margin-top: -140%;
+  margin-left: 12%;
+  margin-bottom: 30px;
+}
+
+.mobile {
+  margin-top: 50%;
+  width: 33%;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  z-index:999;
+}
+
+.arrow i {
+  background-color: #ffffff;
+  color: #b88659;
+  padding: 15px;
+  border-radius: 50px;
+  margin-top: 67px;
+}
+
+.adjust-row {
+    
+    margin-left: 15%;
+}
+
+.icon-box1 {
+  text-align: right;
+  margin-right: 10px;
+  z-index: 15;
+}
+.icon-box2 {
+  margin-left: 10px;
+  z-index: 15;
+}
+
+.icon-box1 .play-store {
+    
+    width: 50%;
+}
+
+.icon-box2 .app-store {
+    width: 50%;
+}
+
+.about-us {
+  background: url(../images/about-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  z-index: 1;
+  margin-top: -10%;
+}
+
+.about-us h2 {
+  color: #ffffff;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.about-us p {
+  color: #2b2b2b;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-us .offer-box {
+  text-align: center;
+  padding: 0 50px;
+}
+
+.about-us .offer-box p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.carousel-control-next {
+  z-index: 15;
+}
+
+.about-us iframe {
+}
+
+.typing {
+  background: linear-gradient(#09d187, #f8f9fa61), url(../images/typing-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.typing h4 {
+  font-size: 32px;
+}
+
+.typing h1 {
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.typed-cursor {
+  font-size: 60px;
+}
+
+.map {
+  padding-top: 100px;
+}
+
+.map .text-area {
+  text-align: center;
+}
+
+.map .text-area h2 {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.service {
+  background: url(../images/about-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 15%;
+  padding-bottom: 12%;
+  text-align: center;
+}
+
+.service h2 {
+  color: #ffffff;
+  margin-bottom: 80px;
+  font-weight: 32px;
+}
+
+.service .service-box {
+  margin-bottom: 50px;
+}
+
+.service .service-box img {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.service .service-box h4 {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.service .service-box p {
+  color: #000000;
+}
+
+.review {
+  text-align: center;
+  background: url(../images/review-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 5;
+  margin-top: -100px;
+  height: 824px;
+  padding-top: 16%;
+  margin-bottom: 100px;
+}
+
+.review h2 {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 80px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.custom-item {
+  height: 130vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+
+.review-custom-item {
+  text-align: left;
+  padding: 0 12%;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.review-custom-item p {
+  font-size: 18px;
+}
+
+.review-custom-item h5 {
+  color: #34b4e3;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.review-custom-item h6 {
+  font-size: 16px;
+}
+
+.fa-quote-right {
+  float: right;
+}
+
+.fa-angle-right {
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: #000000;
+}
+
+.fa-angle-left {
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: #000000;
+}
+
+.review-img {
+}
+
+.box {
+}
+
+.role {
+  text-align: right;
+}
+
+.member {
+  background-color: #09df90;
+  padding: 80px 0;
+}
+
+.member .text-area {
+  text-align: center;
+}
+
+.member .text-area h2 {
+  color: #ffffff;
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+
+.member .logo-box-1 {
+  text-align: right;
+}
+
+.member .logo-box-1 img {
+  width: 40%;
+}
+
+.member .logo-box-2 {
+  text-align: left;
+}
+
+.member .logo-box-2 img {
+  width: 40%;
+}
+
+.newsletter {
+  padding: 80px 0;
+}
+
+.newsletter .mail-box {
+}
+
+.newsletter .mail-box img {
+  width: 60%;
+  float: right;
+}
+
+.newsletter .text-area {
+}
+
+.newsletter .text-area h2 {
+  color: #34b4e3;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.newsletter .text-area p {
+  color: #898989;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.form-control {
+  padding: 25px 15px;
+  font-size: 20px;
+  border: 2px solid #34b4e3;
+  border-radius: 10px;
+}
+
+.btn-custom {
+  background-color: #34b4e3;
+  border: 1px solid #34b4e3;
+  padding: 8px 40px;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn-custom:hover {
+  background-color: #58cef9;
+}
+
+.btn-custom img {
+  width: 10%;
+  margin-right: 15px;
+}
+
+footer {
+  background: url(../images/footer-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+footer h6 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+footer img {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+footer .nav .nav-item {
+  background-color: #055c78;
+  margin-right: 10px;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  z-index: 15;
+}
+
+footer .nav .nav-item:hover {
+  background: #ffffff;
+}
+
+footer .nav .nav-item .nav-link {
+  color: #ffffff;
+  transform: translate(-5%, 20%);
+}
+
+footer .nav .nav-item .nav-link:hover {
+  color: #055c78;
+}
+
+hr {
+  background: #ffffff;
+  width: 95%;
+  float: left;
+}
+
+footer h5 {
+  color: #0690be;
+  padding: 0.5rem 1rem;
+  margin-top: 15%;
+  font-weight: 600;
+}
+
+.nav .nav-link {
+  color: #ffffff;
+  padding: 0.2rem 1rem;
+  z-index: 15;
+}
+
+.nav .nav-link:hover {
+  color: #09df90;
+  transition: 0.5s;
+}
+
+footer .footer-store {
+  margin-top: 20px;
+}
+
+footer .footer-store img {
+  width: 110%;
+}
+
+footer .footer-store .apple-logo {
+  width: 120%;
+  padding-left: 1rem;
+}
+
+footer .author {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer .scroll-top {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  border: 1px solid #055c78;
+  padding: 2px 10px;
+  border-radius: 100%;
+  font-size: 20px;
+  background: #055c78;
+  z-index: 15;
+}
+
+footer .scroll-top:hover {
+  background: #ffffff;
+}
+
+/*footer .scroll-top a:hover{
+  background-color: #055C78;
+}*/
+
+footer .scroll-top:hover a i {
+  color: #055c78;
+}
+
+footer .scroll-top a {
+  color: #ffffff;
+}
+
+footer .scroll-top a i {
+}
+
+/*Contact Us page Started*/
+
+.nav-bg {
+  background: url(../images/nav-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+
+.contact-us {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.contact-us .text-area {
+  text-align: center;
+}
+.contact-us .text-area h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.contact-us .text-area p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.contact-us .custom-form {
+  background: #ffffff;
+  padding: 50px;
+  box-shadow: 2px 8px 15px 0px gray;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.custom-button {
+  padding-top: 12px;
+  padding-bottom: 40px;
+  background-color: #09df90;
+}
+
+/*Contact Us page End*/
+
+/*Policy page Started*/
+
+.policy {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.policy .text-area {
+  background: #ffffff;
+  padding: 50px;
+  box-shadow: 2px 8px 15px 0px gray;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.policy .text-area p {
+}
+
+.policy .text-area h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.policy .text-area li {
+}
+
+/*Policy page End*/
+
+/*Faq page Started*/
+
+.faq {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.faq .text-area {
+}
+.faq .text-area h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+/*Faq page Started*/
+
+/*Responsiveness Started*/
+
+@media (min-width: 0px) and (max-width: 350px) {
+  .carousel-indicators {
+    margin-bottom: 0;
+    top: 245px;
+  }
+
+  .img-box {
+    height: 350px;
+  }
+
+  .mobile {
+    margin-top: -8%;
+    width: 35%;
+}
+
+  .adjust-row {
+    margin-left: 0;
+}
+
+  .custom-caption {
+    text-align: center;
+    top: 30%;
+    padding: 0px 0px;
+    right: 0;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 380px) {
+
+  .img-box {
+    height: 375px;
+  }
+
+  .adjust-row {
+    margin-left: 0;
+}
+
+}
+
+@media (min-width: 381px) and (max-width: 399px) {
+
+  .img-box {
+    height: 390px;
+  }
+
+  .adjust-row {
+    margin-left: 0;
+}
+
+}
+
+@media (min-width: 400px) and (max-width: 424px) {
+
+  .img-box {
+    height: 415px;
+  }
+
+  .adjust-row {
+    margin-left: 0;
+}
+
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .carousel-indicators {
+    margin-bottom: 0;
+    top: 240px;
+  }
+
+  .custom-caption {
+    text-align: center;
+    top: 30%;
+    padding: 0px 10px;
+    right: 0;
+  }
+
+  .adjust-row {
+    margin-left: 0;
+}
+
+}
+
+@media (min-width: 425px) and (max-width: 575px) {
+  .carousel-indicators {
+    margin-bottom: 0;
+    top: 275px;
+  }
+
+  .custom-caption {
+    text-align: center;
+    top: 30%;
+    padding: 0px 40px;
+    right: 0;
+  }
+
+  .img-box {
+    height: 430px;
+  }
+
+  .adjust-row {
+    margin-left: 0;
+}
+
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  /*Header Section CSS Started*/
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #028ebd;
+    padding: 10px 15px;
+  }
+
+  .navbar-light .navbar-brand {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+
+  .navbar {
+    padding: 0 5px;
+  }
+
+  .navbar-light .navbar-brand {
+    width: 30%;
+  }
+
+  .navbar-collapse {
+    background: #ffffff;
+    z-index: 15;
+  }
+
+  .responsive-img{
+  height: 300px;
+}
+
+  .contact-us {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+
+  .contact-us .custom-form {
+    padding: 30px;
+
+    width: 100%;
+  }
+
+  .policy {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+
+  .policy .text-area {
+    padding: 30px;
+
+    width: 100%;
+  }
+
+  .faq {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+
+  .about-us iframe {
+    width: 300px;
+    height: 180px;
+  }
+
+  .custom-item {
+    height: 100%;
+    min-height: 0;
+  }
+
+  .custom-caption h3 {
+    margin-bottom: 20px;
+    display: none;
+  }
+
+  .custom-caption h1 {
+    padding-right: 0;
+    margin-bottom: 0px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .custom-caption p {
+    margin-bottom: 0;
+    padding-right: 0;
+    display: none;
+  }
+
+  .img-box {
+    background-position: center;
+    margin-left: 0;
+    /*height: 375px; */
+    text-align: center;
+    margin-top: 0;
+    padding: 50px 0;
+  }
+
+  .mobile {
+    margin-top: -5%;
+    width: 40%;
+    margin-left: -20px;
+  }
+
+  .arrow {
+    margin-top: 25px;
+    display: none;
+  }
+
+  .icon-box1 {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .icon-box2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+
+  .icon-box2 .app-store {
+    width: 35%;
+    
+}
+
+  .icon-box1 .play-store {
+    width: 35%;
+    
+}
+
+.adjust-row {
+    margin-left: 0;
+}
+
+  /*Header Section CSS End*/
+
+  .about-us {
+    text-align: center;
+  }
+
+  .about-us .offer-box {
+
+    height: 220px;
+}
+
+  .about-us h2 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .about-us p {
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+
+  .typing{
+    height: 420px;
+  }
+
+  .typing h1{
+    font-size: 40px;
+  }
+
+  .map {
+    padding-top: 50px;
+  }
+
+  .service {
+    padding-top: 50%;
+    padding-bottom: 80px;
+  }
+
+  .service h2 {
+    margin-bottom: 30px;
+  }
+
+
+
+  .service .service-box p {
+    margin-bottom: 30px;
+  }
+
+  .review {
+    padding-top: 30%;
+    margin-bottom: 16%;
+    height: auto;
+  }
+
+  .carousel-item p {
+    font-weight: 400;
+  }
+
+  .carousel-item h5 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .carousel-item h6 {
+    font-size: 16px;
+  }
+
+  .rating-img {
+    width: 70%;
+  }
+
+  .review-custom-item {
+    padding: 0 20%;
+  }
+
+  .member {
+    padding: 50px 0;
+  }
+
+  .member .logo-box-1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .member .logo-box-2 {
+    text-align: center;
+  }
+
+  .member .logo-box-1 img {
+    width: 70%;
+  }
+
+  .member .logo-box-2 img {
+    width: 70%;
+  }
+
+  .newsletter {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  .newsletter .mail-box {
+    text-align: center;
+  }
+
+  .newsletter .mail-box img {
+    width: 40%;
+    float: none;
+  }
+
+  .newsletter .text-area {
+    text-align: center;
+  }
+
+  .form-control {
+    padding: 25px 10px;
+  }
+
+  .form-check-input {
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+  }
+
+  .form-check-label {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .btn-custom {
+    padding: 10px 10px;
+
+    font-size: 17px;
+
+    margin-top: 30px;
+  }
+
+  .social-info {
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  footer img {
+    width: 50%;
+  }
+
+  footer .footer-store img {
+    width: 80%;
+  }
+
+  footer .footer-store .apple-logo {
+    width: 80%;
+    padding-left: 0;
+  }
+
+  hr {
+    width: 80%;
+    float: none;
+  }
+
+  footer .scroll-top {
+    bottom: -35px;
+  }
+
+  .custom-card{
+    padding: 50px 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: #028ebd;
+    padding: 10px 15px;
+  }
+
+  .navbar-collapse {
+    background: #ffffff;
+  }
+
+  .carousel-indicators {
+    top: 10%;
+  }
+
+  .carousel-inner {
+  }
+
+  .custom-caption {
+    top: 10%;
+  }
+
+  .responsive-img{
+  height: 80%;
+}
+
+  .custom-caption h1 {
+    padding-right: 35%;
+    font-size: 30px;
+  }
+
+  .custom-caption p {
+    margin-bottom: 5%;
+    padding-right: 40%;
+  }
+
+  .img-box {
+    height: 490px;
+
+    margin-top: -182%;
+  }
+
+  .mobile {
+    margin-top: 38%;
+    width: 38%;
+    margin-left: 35%;
+  }
+
+  .adjust-row {
+    
+    margin-left: 10%;
+}
+
+.icon-box2 .app-store {
+    
+    
+}
+
+.icon-box1 .play-store {
+    
+}
+
+  .about-us {
+    padding-top: 15%;
+    padding-bottom: 10%;
+    margin-top: -26%;
+  }
+
+  .about-us h2 {
+    margin-bottom: 20px;
+  }
+
+  .arrow {
+    margin-top: 20px;
+    top: 45%;
+    left: 30%;
+  }
+
+  .about-us p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .about-us iframe {
+    width: 320px;
+    height: 200px;
+  }
+
+  .newsletter .mail-box img {
+    width: 100%;
+  }
+
+  .form-control {
+    padding: 25px 10px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer img {
+    width: 40%;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  hr {
+    width: 75%;
+    float: none;
+  }
+
+  .btn-custom {
+    padding: 10px 13px;
+
+    font-size: 16px;
+  }
+
+  footer .footer-store .apple-logo {
+    width: 100%;
+  }
+
+  footer .footer-store img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-light .navbar-nav .nav-link {
+    padding: 0 10px;
+
+    font-size: 18px;
+  }
+
+  .carousel-indicators {
+    top: 12%;
+  }
+
+  .custom-caption p {
+    margin-bottom: 3%;
+  }
+
+  .arrow {
+    top: 72%;
+    left: 20%;
+  }
+
+  .responsive-img{
+  height: 105%;
+}
+
+  .img-box {
+    height: 620px;
+    margin-top: -145%;
+    margin-left: 10%;
+  } 
+
+  .mobile {
+    margin-top: 36%;
+    width: 35%;
+    margin-left: 35%;
+  }
+
+  .adjust-row {
+    
+    margin-left: 6%;
+}
+
+.icon-box1 .play-store {
+    
+}
+
+.icon-box2 .app-store {
+    
+}
+
+.about-us {
+    
+    margin-top: -7%;
+  }
+
+
+  .about-us iframe {
+    width: 450px;
+    height: 270px;
+  }
+}
+
+.flyte-hover:hover {
+  text-decoration-color: white !important;
+  color: white;
+}
+
+@media (min-width: 1430px) and (max-width: 1600px) {
+
+
+  .arrow {
+    top: 55%;
+    left: 15%;
+  }
+
+  .img-box {
+    height: 840px;
+    margin-top: -130%;
+    margin-left: 15%;
+  }
+
+  .mobile {
+    margin-top: 36%;
+    width: 35%;
+    margin-left: 35%;
+  }
+
+  .adjust-row {
+    margin-left: 6%;
+}
+
+.icon-box1 .play-store {
+    /*width: 50%;*/
+}
+
+.icon-box2 .app-store {
+    /*width: 50%;*/
+
+}
+
+}
+
+
+/*Javascript Css*/
+
+
+// cursor styling
+.ityped-cursor {
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.confirmation{
+  color: #09df90;
+}
+
+
+.custom-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding:60px 80px;
+    box-shadow: 0px 2px 10px 0px;
+    background: #000;
+
+}
+
+.custom-card i{
+  color: #09df90;
+}
+
+.custom-card h1{
+  font-size: 40px;
+}
+
+.custom-card p{
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.custom-card .custom-button{
+    background-color: #09df90;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.faq-btn{
+  text-decoration: none!important;
+  box-shadow: none!important;
+}
